@@ -68,9 +68,9 @@
 ## If the user has changed hotkey settings (key binds) at runtime, re-register the hotkeys using:
     HotkeyTools.UpdateHotkeys(mainForm.HotkeyList, mainForm.HotkeyNames, mainForm);
 
-# Changing hotkeys in Options
+# User rebindable hotkeys in Options form
 
-In your options panel, add a DataGridView called HotkeyGrid. Add columns for Hotkey name, Key, and four checkboxes for the modifiers.
+In your Options form, add a DataGridView called HotkeyGrid. Add columns for Hotkey name, Key, and four checkboxes for the modifiers.
 
 
 Get the MainForm when creating the Options form
